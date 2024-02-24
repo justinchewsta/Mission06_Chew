@@ -8,6 +8,7 @@ namespace Mission06_Chew.Models
         {
         }
 
-        public DbSet<Application> Application { get; set; }
+        public DbSet<Application> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
